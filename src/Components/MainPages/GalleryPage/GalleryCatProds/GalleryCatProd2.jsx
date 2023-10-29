@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import "./GalleryCatProds.css";
 import PosterImgData from "../GalleryImgSec/GalleryCardData/ImgDataCat1";
 import { GalleryImgProd3 } from "../GalleryImgSec/GalleryImgProd";
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
 import ImgCat3Prod1, {
   ImgCat3Prod2,
   ImgCat3Prod3,
@@ -74,7 +75,7 @@ export const GalleryCatProd2 = () => {
       setClickedImg(null);
     }
   };
-
+  
   const MobileStyle = {
     backgroundColor: "rgba(30, 30, 30, 0.9)",
     transition: "300ms ease",
@@ -96,7 +97,7 @@ export const GalleryCatProd2 = () => {
     },
   }
   
-
+  const handle = useFullScreenHandle();
   return (
     <div className="GalleryISMain" data-aos="fade-up">
       <div className="GalleryIS">
@@ -128,7 +129,7 @@ export const GalleryCatProd2 = () => {
                 </div>
               </div>
             ))} */}
-
+            
             {ShowProd(activeProd).map((ImgData, i) => (
               <div key={i} className="GalleryIS-ImgContainer" data-aos="fade-up">
                 <button
@@ -141,15 +142,18 @@ export const GalleryCatProd2 = () => {
                   onClick={() => handelClick(ImgData, i)}
                 >
                   {/* <button className={ImgOpen==="Open"? "V-Cross-Button" : "H-Cross-Button"} onClick={()=>setImgOpen("close")}>X</button> */}
-                  <img className="GalleryIS-Img" src={ImgData} />
+                  <img className="GalleryIS-Img" src={ImgData} 
+                  onClick={handle.enter} />
                 </button>
               </div>
             ))}
             {clickedImg && (
+            <FullScreen handle={handle}>
               <div
                 className="overlay dismiss"
                 onClick={handelClickClose}
                 style={MobileStyle}
+                
               >
                 {/* <div className="GalleryISImgBox-Open"> */}
                 <img
@@ -243,7 +247,9 @@ export const GalleryCatProd2 = () => {
                   </svg>
                 </div>
               </div>
+            </FullScreen>
             )}
+
           </div>
           {/* <button className="GalleryIS-ImgButton">Load More</button> */}
         </div>
