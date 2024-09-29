@@ -21,7 +21,8 @@ export const LandingPage = () => {
         <HomeServiceStepsSec/>
         
         <HomeGallerySec/>
-    {/* <FooterSec/> */}
+      {/* <FooterSec/> */}
+      
     
     </div>
   )
