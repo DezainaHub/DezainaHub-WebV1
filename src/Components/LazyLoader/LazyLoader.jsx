@@ -6,6 +6,7 @@ export const LazyLoader = () => {
     <div className="LazyLoader">
             <div class="loader"></div>
             {/* hello */}
+            {/* hello */}
         </div>
   )
 }
