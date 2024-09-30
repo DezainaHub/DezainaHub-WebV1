@@ -6,6 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ContactFormFinal from "./ContactFinalStage/ContactFormFinal";
 import ContactFormLoader from "./ContactFormLoader/ContactFormLoader";
+import { Toaster,  } from "react-hot-toast"
 
 const ServiceOptions = [
   {
@@ -88,7 +89,7 @@ export const ContactForm1 = () => {
     });
     setLoading(true);
     toast.success("Form Submitted Successfully!", {
-      position: "bottom-right",
+      position: "top-center",
       draggable: true,
     });
     // setFormState(2);

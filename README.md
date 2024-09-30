@@ -144,3 +144,4 @@
 *Onclick of "Delete" button the image should be removed from the gallery page
 
 *Onclick of the "Update Page" button at the top right than only the gallery page should be update in the main site
+
