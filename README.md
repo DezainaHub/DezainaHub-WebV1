@@ -145,3 +145,55 @@
 
 *Onclick of the "Update Page" button at the top right than only the gallery page should be update in the main site
 
+
+
+
+# How to clone the repository in your PC
+
+
+
+This guide will help you clone this repository to your local machine step by step.
+
+## Step 1: Install Git
+
+<!-- Make sure Git is installed on your machine before attempting to clone the repository. -->
+
+- For **Windows**, download and install Git from
+
+- For **macOS**, run the following command in the terminal:
+  
+  ```bash
+  brew install git
+
+- For Linux, install Git using the following command:
+
+- Wite in terminal:- sudo apt-get install git
+
+## Step 4: Open a Terminal or Command Prompt
+
+<!-- Open a terminal (Linux/macOS) or Command Prompt (Windows). This is where you will run Git commands. -->
+
+## Step 3: Navigate to the Desired Directory
+
+- Write in your terminal :- cd path/to/your/directory
+
+## Step 4: Get the Repository URL
+
+<!-- Visit the repository on GitHub, click on the green 'Code' button, and copy the HTTPS or SSH URL. -->
+
+##  Clone the Repository
+
+- Write in your terminal :- git clone https://github.com/username/repository-name.git
+
+<!-- Use the `git clone` command followed by the repository URL to clone it. -->
+
+## Step 6: Navigate into the Cloned Repository
+
+<!-- After cloning, use the `cd` command to enter the cloned repository directory. -->
+
+- Write in your terminal :- cd repository-name
+
+## Step 7: Verify the Clone
+
+- ls   # For Linux/macOS
+- dir  # For Windows
