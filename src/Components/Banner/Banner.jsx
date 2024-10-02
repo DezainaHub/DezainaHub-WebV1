@@ -14,9 +14,10 @@ function Banner() {
   return (
     <div>
         {
-            data.map(({id, image}) => {
+            data.map(({id, image, name}) => {
                 <div key={id}>
                     <img src={image} alt=""/>
+                    <p>{name}</p>
                 </div>
 
             })

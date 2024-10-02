@@ -65,58 +65,54 @@ function App() {
   // }
 
   return (
-    // <div className="App">
-    //   <Suspense
-    //     fallback={
-    //       <div>
-    //         <LazyLoader />
-    //       </div>
-    //     }
-    //   >
-    //     {/* {!renderHeaderFooter() || ContactFooter() ? <HeaderSec/> : <></> }  */}
-    //     <BrowserRouter>
-    //       <Layout>
-    //         <Routes>
-    //           <Route path="/" element={<LandingPage />} />
-    //           <Route path="/AboutUs" element={<AboutUsPage />} />
-    //           <Route path="/Service" element={<ServicePage />} />
-    //           <Route path="/Service/:id" element={<PDPage />} />
-    //           <Route path="/Gallery" element={<GalleryPage />} />
-    //           <Route path="/ContactUs" element={<ContactUsPage />} />
+    <div className="App">
+      <Suspense
+        fallback={
+          <div>
+            <LazyLoader />
+          </div>
+        }
+      >
+        {/* {!renderHeaderFooter() || ContactFooter() ? <HeaderSec/> : <></> }  */}
+        <BrowserRouter>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/AboutUs" element={<AboutUsPage />} />
+              <Route path="/Service" element={<ServicePage />} />
+              <Route path="/Service/:id" element={<PDPage />} />
+              <Route path="/Gallery" element={<GalleryPage />} />
+              <Route path="/ContactUs" element={<ContactUsPage />} />
 
-    //           {/* <Route path='/Cart' element={<CartPage/>} />
-    //       <Route path='/Login' element={<LoginPage/>} />
-    //       <Route path='/Signup' element={<SignupPage/>} />
-    //       <Route path='/Verify' element={<VerifyPage/>} /> */}
-    //           <Route
-    //             path="*"
-    //             element={<Navigate to={"/Wrong"}/>
-    //               // <div className="err-con">
-    //               //   <Lottie animationData={Erroranimation} />
-    //               //   <h1 className="err-content" style={{ color: "#1e1e1e" }}>
-    //               //     Wrong Route, Our Designers are sleeping here{" "}
-    //               //   </h1>
-    //               //   <NavLink to="/">
-    //               //     <Button buttonText="Back to home" fontSize="20px" />
-    //               //   </NavLink>
-    //               // </div>
-    //             }
-    //           />
-    //           <Route path="/Wrong" element={<Wrong />} />
-    //         </Routes>
-    //       </Layout>
-    //     </BrowserRouter>
-    //     {/* {!renderHeaderFooter()  ? <div><FooterNewsLetter/><FooterFoot/></div> : <></>} */}
-    //     {/* {ContactFooter() ? <FooterFoot/> : <></>} */}
-    //   </Suspense>
+              {/* <Route path='/Cart' element={<CartPage/>} />
+          <Route path='/Login' element={<LoginPage/>} />
+          <Route path='/Signup' element={<SignupPage/>} />
+          <Route path='/Verify' element={<VerifyPage/>} /> */}
+              <Route
+                path="*"
+                element={<Navigate to={"/Wrong"}/>
+                  // <div className="err-con">
+                  //   <Lottie animationData={Erroranimation} />
+                  //   <h1 className="err-content" style={{ color: "#1e1e1e" }}>
+                  //     Wrong Route, Our Designers are sleeping here{" "}
+                  //   </h1>
+                  //   <NavLink to="/">
+                  //     <Button buttonText="Back to home" fontSize="20px" />
+                  //   </NavLink>
+                  // </div>
+                }
+              />
+              <Route path="/Wrong" element={<Wrong />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+        {/* {!renderHeaderFooter()  ? <div><FooterNewsLetter/><FooterFoot/></div> : <></>} */}
+        {/* {ContactFooter() ? <FooterFoot/> : <></>} */}
+      </Suspense>
 
-    //   {/* for vercel analytics */}
-    //   <Analytics debug={false} />
-    // </div>
-
-    <>
-      <Banner />
-    </>
+      {/* for vercel analytics */}
+      <Analytics debug={false} />
+    </div>
   );
 }
 

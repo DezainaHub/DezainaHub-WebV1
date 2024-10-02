@@ -23,15 +23,18 @@ import img20 from "./TPH.png"
 const ImgData = [ 
     {
         id: 1,
-        image: img1 
+        image: img1,
+        name: "piyush"
     },
     {
         id: 2,
-        image: img2 
+        image: img2,
+        name: "Kumar"
     },
     {
         id: 3,
-        image: img3 
+        image: img3,
+        name: "Sharma"
     },
     {
         id: 4,
