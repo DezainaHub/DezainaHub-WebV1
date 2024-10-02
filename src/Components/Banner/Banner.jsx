@@ -14,7 +14,7 @@ function Banner() {
   return (
     <div>
         {
-            ImgData.map(({id, image}) => {
+            data.map(({id, image}) => {
                 <div key={id}>
                     <img src={image} alt=""/>
                 </div>
