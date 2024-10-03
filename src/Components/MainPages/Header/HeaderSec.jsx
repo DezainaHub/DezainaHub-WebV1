@@ -201,7 +201,25 @@ export const HeaderSec = () => {
                 </button>
               </NavLink>
             </div>
-            
+
+            <div className="NavBarList-Items">
+              <NavLink to="/Banner">
+                <button
+                  onClick={() => {
+                    setActiveTab("Banner");
+                    handleClick();
+                  }}
+                  className={
+                    url.includes("Banner")
+                      ? "activeButton"
+                      : "NavBarListItem-Button"
+                  }
+                >
+                  Banner
+                </button>
+              </NavLink>
+            </div>
+
 
             {/* Will Release This In Next Version */}
 

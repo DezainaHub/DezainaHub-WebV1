@@ -83,6 +83,9 @@ function App() {
               <Route path="/Service/:id" element={<PDPage />} />
               <Route path="/Gallery" element={<GalleryPage />} />
               <Route path="/ContactUs" element={<ContactUsPage />} />
+              <Route path="/Banner" element={<Banner />} />
+
+
 
               {/* <Route path='/Cart' element={<CartPage/>} />
           <Route path='/Login' element={<LoginPage/>} />
