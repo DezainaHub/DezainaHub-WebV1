@@ -60,7 +60,7 @@ export const HeaderSec = () => {
         </Marquee>
       )}
       <div
-        className={`NavMainContainer ${
+        className={`NavMainContainer px-10 ${
           data.length > 0 ? "with-offer-strip" : ""
         }`}
       >
