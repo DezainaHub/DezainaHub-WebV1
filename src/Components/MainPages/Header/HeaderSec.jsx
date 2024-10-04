@@ -202,7 +202,7 @@ export const HeaderSec = () => {
               </NavLink>
             </div>
 
-            <div className="NavBarList-Items">
+            {/* <div className="NavBarList-Items">
               <NavLink to="/Banner">
                 <button
                   onClick={() => {
@@ -218,7 +218,7 @@ export const HeaderSec = () => {
                   Banner
                 </button>
               </NavLink>
-            </div>
+            </div> */}
 
 
             {/* Will Release This In Next Version */}

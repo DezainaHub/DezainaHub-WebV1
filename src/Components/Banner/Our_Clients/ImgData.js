@@ -110,20 +110,20 @@
 // export default ImgData
 
 const bannerData = [
-    // {
-    //     id: 1,
-    //     img: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
-    // },
+    {
+        id: 1,
+        img: "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg",
+    },
 
-    // {
-    //     id: 2,
-    //     img: 'https://marketplace.canva.com/EAGAIOtypec/1/0/1600w/canva-gold-luxury-initial-logo-ax7Kli7Hh1g.jpg',
-    // },
+    {
+        id: 2,
+        img: 'https://marketplace.canva.com/EAGAIOtypec/1/0/1600w/canva-gold-luxury-initial-logo-ax7Kli7Hh1g.jpg',
+    },
 
-    // {
-    //     id: 3,
-    //     img: "https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg",
-    // },
+    {
+        id: 3,
+        img: "https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg",
+    },
 
     {
         id: 4,
@@ -135,15 +135,15 @@ const bannerData = [
         img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbz49jfzelLcn17vVACrpwjD7lDBCGriaggg&s'
     },
 
-    // {
-    //     id: 6,
-    //     img: 'https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg'
-    // },
+    {
+        id: 6,
+        img: 'https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg'
+    },
 
-    // {
-    //     id: 7,
-    //     img: "https://png.pngtree.com/element_pic/00/16/09/2057e0eecf792fb.jpg"
-    // },
+    {
+        id: 7,
+        img: "https://png.pngtree.com/element_pic/00/16/09/2057e0eecf792fb.jpg"
+    },
 
     {
         id: 8,
