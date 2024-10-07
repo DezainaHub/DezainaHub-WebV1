@@ -13,9 +13,9 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay, Mousewheel } from 's
 
 export const AboutTestimonial = () => {
   return (
-    <div className='AboutTSMain' data-aos="fade-up">
-        <div className='AboutTS container'>
-            <div className='AboutTS-Body'>
+    <div className='AboutTSMain flex justify-center items-center' data-aos="fade-up">
+        <div className='AboutTS container px-10'>
+            <div className='AboutTS-Body px-8'>
                 <h6 className='AboutTSBody-Title'>Testimonial</h6>
                 <h1 className='AboutTSBody-Heading'>What Our <span>Clients</span> Say About Us</h1>
                 <p className='AboutTSBody-Content'>Discover what our satisfied clients have to say about their experience working with DezainaHub. We take pride in delivering exceptional branding and design solutions that leave a lasting impact. Your success story could be next!</p>

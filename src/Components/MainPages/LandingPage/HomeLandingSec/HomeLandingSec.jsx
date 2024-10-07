@@ -14,7 +14,7 @@ export const HomeLandingSec = () => {
   return (
     <div className="HomeLSMain">
       <div className="OfferStrip"></div>
-      <div className="HomeLS container">
+      <div className="HomeLS container px-20">
         <div className="HomeLS-Content">
           <h1 className="HomeLSContent-Head">
             DESIGNING VISUAL{" "}
@@ -74,7 +74,7 @@ export const HomeLandingSec = () => {
           <img className="HomeLS-Image" src={LandingImg}></img>
         </div>
         <svg
-          className="HomeLSImageContainer-BGBlue"
+          className="HomeLSImageContainer-BGBlue mr-14"
           width="850"
           height="850"
           viewBox="0 0 764 764"
@@ -84,7 +84,7 @@ export const HomeLandingSec = () => {
           <circle cx="382" cy="382" r="382" fill="#25C1EC" />
         </svg>
         <svg
-          className="HomeLSImageContainer-BGPink"
+          className="HomeLSImageContainer-BGPink mr-[55px]"
           width="250"
           height="250"
           viewBox="0 0 272 272"

@@ -4,6 +4,7 @@
 .HomeASMain .HomeAS {
   display: flex;
   gap: 3rem;
+  padding: 0 5rem 0 5rem;
 }
 .HomeASMain .HomeAS .HomeAS-ImageContainer {
   position: relative;
@@ -229,6 +230,7 @@
     display: flex;
     justify-content: center;
     gap: 4rem;
+    padding: 0 2rem 0 2.5rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer {
     margin-left: 0rem;

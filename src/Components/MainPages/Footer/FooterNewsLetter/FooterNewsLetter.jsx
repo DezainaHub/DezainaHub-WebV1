@@ -6,7 +6,7 @@ import Button from "../../../GlobalComponents/Button/Button";
 export const FooterNewsLetter = () => {
   return (
     <div className="FooterNewsLetterMain">
-      <div className="FooterNewsLetter container">
+      <div className="FooterNewsLetter container px-20">
         <div className="FooterNewsLetter-Body">
           <div className="FooterNewsLetterBody-Title">
             Lets Boost Your Business

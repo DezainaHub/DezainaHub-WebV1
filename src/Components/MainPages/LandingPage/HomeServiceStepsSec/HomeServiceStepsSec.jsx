@@ -4,7 +4,7 @@ import "./HomeServiceStepsSec.css"
 export const HomeServiceStepsSec = () => {
   return (
     <div className='HomeSSSMain'>
-        <div className='HomeSSS container' data-aos="fade-up">
+        <div className='HomeSSS container p-20' data-aos="fade-up">
             <div className='HomeSSS-HeadContainer'><h1 className='HomeSSS-Head'>3 <span>Steps</span> to Build Brand <span>Presence</span></h1></div>
             <div className='HomeSSS-Steps'>
                 <div className='HomeSSSSteps-Up'>

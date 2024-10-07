@@ -24,6 +24,7 @@
   position: fixed;
   width: 100%;
   z-index: 100;
+  padding: 0 3rem 0 1.5rem ;
 }
 .NavMainContainer .NavBarStyle {
   display: flex;
@@ -34,14 +35,14 @@
 }
 .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
   display: flex;
-  margin-left: -6vb;
+  /* margin-left: -5vb; */
   justify-content: center;
   align-items: center;
 }
-.NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
+/* .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
   width: auto !important;
-  height: 3.5rem;
-}
+  height: 3.8rem;
+} */
 .NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger {
   display: flex;
   align-items: center;
@@ -100,9 +101,12 @@
 @media screen and (max-width: 600px) {
   .NavMainContainer {
     height: 4rem;
+    width: 100%;
+    padding: 0;
   }
   .NavMainContainer .NavBarStyle {
     flex-direction: column;
+    width: 100%;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle {
     height: 4rem;
@@ -112,10 +116,11 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
-  .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
+  /* .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
     margin-left: 0rem;
-  }
+  } */
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
     height: 2rem;
   }
@@ -164,6 +169,7 @@
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .NavMainContainer {
     height: 4rem;
+    padding: 0;
   }
   .NavMainContainer .NavBarStyle {
     flex-direction: column;
@@ -178,7 +184,8 @@
     justify-content: space-between;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
-    height: 2.5rem;
+    height: 2.5rem !important;  
+    width: auto;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger {
     display: flex;
@@ -226,6 +233,8 @@
 @media (min-width: 1880px) {
   .NavMainContainer {
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
   .NavMainContainer .NavBarStyle {
     display: flex;

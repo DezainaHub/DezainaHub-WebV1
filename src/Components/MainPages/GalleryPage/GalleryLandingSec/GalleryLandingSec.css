@@ -18,6 +18,11 @@
   font-weight: 700;
   margin-bottom: 1rem;
 }
+.GalleryLSMain .GalleryLS .GalleryLS-Head h1 {
+  font-size: calc(1.375rem + 1.5vw);
+
+}
+
 .GalleryLSMain .GalleryLS .GalleryLS-Head span {
   color: #25C1EC;
 }

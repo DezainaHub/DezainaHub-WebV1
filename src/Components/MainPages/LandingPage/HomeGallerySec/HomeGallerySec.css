@@ -153,6 +153,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    padding: 0;
   }
   .HomeGSMain .HomeGS .HomeGS-Content {
     width: 100%;

@@ -41,7 +41,7 @@ export const GalleryLandingSec = () => {
       <div className="GalleryLSMain">
         <div className="GalleryLS container" data-aos="zoom-in-up">
           <div>
-            <h1 className="GalleryLS-Head">
+            <h1 className="GalleryLS-Head text-[37.36px]">
               Explore Our Diverse <span>Portfolio</span>
             </h1>
             <p className="GalleryLSHead-Body">

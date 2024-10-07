@@ -60,7 +60,7 @@ export const HeaderSec = () => {
         </Marquee>
       )}
       <div
-        className={`NavMainContainer px-10 ${
+        className={`NavMainContainer ${
           data.length > 0 ? "with-offer-strip" : ""
         }`}
       >
@@ -68,7 +68,7 @@ export const HeaderSec = () => {
           <div className="NavBarLogoStyle">
             <div className="Nav-Logo">
               <NavLink to="/" className="nav-item">
-                <img src={LogoImg} />
+                <img src={LogoImg} className="sm:w-[40%] sm:h-auto " />
                 {/* <img src={LogoImgName} /> */}
               </NavLink>
             </div>

@@ -6,18 +6,21 @@ function Banner() {
   const [data, useData] = useState(bannerData);
 
   return (
-    <div className="banner w-full h-[60vh] flex justify-center items-center bg-PrimaryColor">
-      <div className="wrapper relative w-[90%] flex items-center overflow-hidden">
+    <div className="banner w-full h-[70vh] flex justify-center items-center bg-PrimaryColor">
+       <div className='ml-10 px-2 w-[15%] flex justify-center items-center'>
+          <h1 className='text-2xl text-white z-10 font-mono'> Trusted by </h1>
+        </div>
+      <div className="wrapper relative w-[80%] flex items-center justify-center overflow-hidden">
        
         {/* Image Container for scrolling */}
 
-        <div className="img-div flex items-center justify-evenly gap-2 animate-scroll whitespace-nowrap">
+        <div className="img-div flex items-end justify-evenly animate-scroll whitespace-nowrap">
           {data.map(({ id, img }) => (
             <div className="img-container" key={id}>
               <img
                 src={img}
                 alt={`client-${id}`}
-                className=" h-[50px] mx-5 object-contain"
+                className=" w-[70%] m-20 object-contain"
               />
             </div>
           ))}
@@ -29,7 +32,7 @@ function Banner() {
               <img
                 src={img}
                 alt={`client-repeat-${id}`}
-                className=" h-[50px] mx-5 object-contain"
+                className=" w-[70%] m-20 object-contain"
               />
             </div>
           ))}

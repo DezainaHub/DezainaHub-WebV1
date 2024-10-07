@@ -27,6 +27,7 @@
   .QualityStripMain .QualityStrip {
     flex-direction: column;
     gap: 5rem;
+    padding: 0;
   }
   .QualityStripMain .QualityStrip .QualityStripContent {
     font-size: 2rem;

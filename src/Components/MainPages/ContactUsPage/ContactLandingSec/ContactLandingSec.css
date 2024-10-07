@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+
 .ContactLSMain .ContactLS .ContactLS-Head {
   margin-top: 5rem;
   width: 45rem;
@@ -116,6 +118,12 @@
     display: flex;
     flex-direction: column;
   }
+
+  .container{
+   padding: 0 !important;
+  }
+
+
   .ContactLSMain .ContactLS .ContactLS-Head {
     margin-top: 0rem;
     width: 100%;
@@ -156,3 +164,9 @@
     font-size: 0.8rem;
   }
 }/*# sourceMappingURL=ContactLandingSec.css.map */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 !important;
+  }
+}

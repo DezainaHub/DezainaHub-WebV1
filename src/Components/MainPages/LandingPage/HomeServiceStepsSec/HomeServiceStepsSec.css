@@ -98,6 +98,7 @@
   }
   .HomeSSSMain .HomeSSS {
     display: flex;
+    padding: 0;
   }
   .HomeSSSMain .HomeSSS .HomeSSS-HeadContainer .HomeSSS-Head {
     font-size: 2rem;
