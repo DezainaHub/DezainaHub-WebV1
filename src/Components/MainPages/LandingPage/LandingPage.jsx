@@ -7,6 +7,7 @@ import FeaturedServiceSec from './FeaturedServiceSec/FeaturedServiceSec'
 import HomeServiceStepsSec from './HomeServiceStepsSec/HomeServiceStepsSec'
 import HomeGallerySec from './HomeGallerySec/HomeGallerySec'
 import AboutTestimonial from '../AboutUsPage/AboutTestimonial/AboutTestimonial'
+import ClientCarousal from '../../GlobalComponents/clientCarousal/clientCarousal'
 
 
 export const LandingPage = () => {
@@ -16,7 +17,8 @@ export const LandingPage = () => {
         <HomeLandingSec/>
         <HomeAboutSec/>
         <QualityStrip/>
-        <FeaturedServiceSec/>
+        <FeaturedServiceSec />
+        <ClientCarousal/>
         <AboutTestimonial/>
         <HomeServiceStepsSec/>
         
