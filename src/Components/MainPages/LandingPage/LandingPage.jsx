@@ -14,11 +14,11 @@ export const LandingPage = () => {
   return (
     <div>
     {/* <HeaderSec/> */}
-        <HomeLandingSec/>
+        <HomeLandingSec />
+        <ClientCarousal/>
         <HomeAboutSec/>
         <QualityStrip/>
         <FeaturedServiceSec />
-        <ClientCarousal/>
         <AboutTestimonial/>
         <HomeServiceStepsSec/>
         
