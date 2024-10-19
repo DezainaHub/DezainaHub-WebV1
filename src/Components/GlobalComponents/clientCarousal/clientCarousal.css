@@ -10,7 +10,7 @@
 
 .trusted-by {
   display: none;
-  background-color: black;
+  background-color: #1e1e1e0d;
   padding: 80px 160px;
   font-size: 1.25rem;
   z-index: 50;
