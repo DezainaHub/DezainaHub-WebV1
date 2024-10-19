@@ -1,12 +1,24 @@
-import '../clientCarousal/clientCarousal.css'
+import '../clientCarousal/clientCarousal.css';
 
-const clientCarousal = () => {
+import { Logo1, Logo2, Logo3, Logo4, Logo5, Logo6 } from './logo';
+
+const ClientCarousel = () => {
+  const logos = [Logo1, Logo2, Logo3, Logo4, Logo5, Logo6];
+
   return (
-    <div className='bg-black text-[B5B8B8] h-[176px] flex items-center font-manrope'>
-      <div className="bg-black px-40 text-2xl">Trusted By</div>
-      
+    <div className='client-carousel'>
+      <div className="trusted-by">
+        <p>Trusted By</p>
+      </div>
+      <div className="logo-container">
+        {logos.concat(logos.slice(0, 3)).map((Logo, index) => (
+          <div key={index} className="logo-wrapper">
+            <Logo className="logo" />
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default clientCarousal
+export default ClientCarousel;
