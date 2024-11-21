@@ -81,6 +81,10 @@
         justify-content: center;
         align-items: center;
 
+        
+
+        
+
         .activeButton{
             width: 6rem;
             height: 5rem;
@@ -94,6 +98,7 @@
             border-radius: $BottomRadius;
             letter-spacing: 0.04rem;
         }
+        
 
         .NavBarListItem-Button{
             width: 6rem;
@@ -106,6 +111,8 @@
             // font-size: 1rem;
             letter-spacing: 0.04rem;
             color: $SecondaryFontColor;
+
+           
         }
         .NavBarListItem-Button:hover{
             text-decoration: underline;

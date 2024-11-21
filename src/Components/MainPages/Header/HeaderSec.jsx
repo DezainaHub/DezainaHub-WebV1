@@ -201,6 +201,13 @@ export const HeaderSec = () => {
                 </button>
               </NavLink>
             </div>
+            <div className="NavBarList-Items">
+            <button className="NavBarListItem-Button ">
+              <NavLink to="https://career.dezainahub.com">
+                Career
+              </NavLink>
+            </button>
+          </div>
 
             {/* Will Release This In Next Version */}
 
