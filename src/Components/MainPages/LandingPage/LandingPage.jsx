@@ -7,16 +7,18 @@ import FeaturedServiceSec from './FeaturedServiceSec/FeaturedServiceSec'
 import HomeServiceStepsSec from './HomeServiceStepsSec/HomeServiceStepsSec'
 import HomeGallerySec from './HomeGallerySec/HomeGallerySec'
 import AboutTestimonial from '../AboutUsPage/AboutTestimonial/AboutTestimonial'
+import ClientCarousal from '../../GlobalComponents/clientCarousal/clientCarousal'
 
 
 export const LandingPage = () => {
   return (
     <div>
     {/* <HeaderSec/> */}
-        <HomeLandingSec/>
+        <HomeLandingSec />
+        <ClientCarousal/>
         <HomeAboutSec/>
         <QualityStrip/>
-        <FeaturedServiceSec/>
+        <FeaturedServiceSec />
         <AboutTestimonial/>
         <HomeServiceStepsSec/>
         
