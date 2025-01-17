@@ -42,10 +42,12 @@ import C2B1Img2 from "./ProductImages/Category2Imgs/C2Prod1/Deva Resume1.jpg"
 import C2B1Img3 from "./ProductImages/Category2Imgs/C2Prod1/Zeal1.jpg"
 import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
 
-import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/Web UI1.png"
-import C2B2Img2 from "./ProductImages/Category2Imgs/C2Prod2/DezainaHub Main.jpg"
-import C2B2Img3 from "./ProductImages/Category2Imgs/C2Prod2/AnilBimal Law Firm.jpg"
-// import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
+import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/TravSo.png"
+import C2B2Img2 from "./ProductImages/Category2Imgs/C2Prod2/Invoicify.png"
+import C2B2Img3 from "./ProductImages/Category2Imgs/C2Prod2/LoanAid_Short.png"
+import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/LBR.png"
+import C2B2Img5 from "./ProductImages/Category2Imgs/C2Prod2/Subcidys.png"
+import C2B2Img6 from "./ProductImages/Category2Imgs/C2Prod2/Restrosol.png"
 
 import C2B3Img1 from "./ProductImages/Category2Imgs/C2Prod3/App UI1.jpeg"
 import C2B3Img2 from "./ProductImages/Category2Imgs/C2Prod3/c2b3i2.png"
@@ -302,16 +304,25 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B2Img1,
-        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=ZoUaZsG3SyBFHldl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778 ',
+        link: 'https://www.figma.com/design/JBlrSVQ5QrpIKTGQRG3DZy/TravSo---Travel-Web-App?node-id=331-30215&t=onjNFSnOMVoPhpnf-1',
       },
       {
         img: C2B2Img2,
-        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
+        link: 'https://www.figma.com/design/kK3niMt0mPat0jyFmvoSqe/Invoicify---Billing-Software?node-id=0-1&t=3EpxSOiQjaiLDuPf-1',
       },
       {
         img: C2B2Img3,
-        link: 'https://www.figma.com/proto/Iaeq3iKFI36dIZx4fATgHb/E-commerce-Website-UI?page-id=0%3A1&node-id=20-2&t=ENH3IJPm7T7RpXGS-1',
+        link: 'https://www.figma.com/design/pIHfgjIfNZv1lsVcwz2lgU/LoanAid---Loan-Settlement-firm?node-id=0-1&t=QuOl2UKLU0QjKH69-1',
       },
+      {
+        img: C2B2Img4,
+        link: 'https://www.figma.com/design/TQdVTnLlHHoPVqgVlOdc5s/LBR?node-id=0-1&t=rUvGC795k2AsFkV8-1 ',
+      },
+      {
+        img: C2B2Img6,
+        link: 'https://www.figma.com/design/YQ870SNJ4uzN3Ap4VW3rKk/Restrosol---Restaurant-Consultancy?node-id=0-1&t=qXxYvwmfHaLnI2KG-1 ',
+      },
+
       // WIP: removed becz of anavailable figma link can be added afterwards 
       // for adding refer to the imported image 
       // {
